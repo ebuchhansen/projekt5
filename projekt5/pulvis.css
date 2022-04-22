@@ -1,0 +1,179 @@
+*{
+    font-weight: 700;
+    
+    font-style: normal;
+}
+
+        /* header & footer */
+.kasse{
+    width: 100%;
+    background-color: #F6BD60;
+    padding: 50px;
+}
+
+.kasse2{
+    width: 100%;
+    background-color: #F6BD60;
+    padding: 50px;
+   display: flex;
+justify-content:baseline;
+}
+
+
+   /* text */
+.text{
+text-align: center;
+font-size: 25px;
+margin-top: 50px;
+color: #FD5A05;
+}
+
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+h1{
+    font-size: 20px;
+}
+
+  
+  /* Full-width inputs */
+  input {
+    padding: 10px 0;
+    font-size: 14px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #333;
+    outline: none;
+    resize: none;
+    width: 400px;
+    }
+    
+
+
+.row{
+    display: flex;
+    flex-direction: column;
+   }
+
+
+#send{
+    display: flex;
+   justify-content: start;
+}
+
+.besked{
+    text-align: start;
+    margin-left: 205px
+}
+
+
+
+#button {
+    background-color: #4AAAC5;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 7px 50px;
+    margin: 0px;
+    border-radius: 12px;
+justify-content: end;
+  }
+  
+
+  #button a{
+    background-color: #4AAAC5;
+    color: rgb(255, 255, 255);
+
+  }
+  
+
+  iframe{
+      width: 100%;
+     height: 200px;
+     margin-top: 100px;
+  }
+
+
+   /* Change styles for small screens */
+   @media screen and (max-width: 500px) {
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.titel{
+    font-size: 16px;
+}
+
+.row{
+    padding: 10px 40;
+    font-size: 14px;
+    margin: 10px 0;
+    width: 400px;
+}
+
+.besked{
+    padding: 15px 0;
+    margin: 10px 0;
+    font-size: 10px;
+    
+}
+
+#send{
+    font-size: 16px;
+}
+
+  }
+
+
+ #bund{
+    border-bottom: 1px solid #333;
+    outline: none;
+    resize: none;
+    width: 70%;
+ }
+
+
+
+
+   /* Change styles for small screens */
+   @media screen and (max-width: 800px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #titel{
+        font-size: 16px;
+    }
+    
+    .row{
+        padding: 10px 40;
+        font-size: 14px;
+        margin: 10px 0;
+        width: 400px;
+    }
+    
+    .besked{
+        padding: 15px 0;
+        margin: 10px 0;
+        font-size: 10px;
+    }
+    
+    #send{
+        font-size: 16px;
+    }
+    
+
+    #bund{
+        border-bottom: 1px solid #333;
+        outline: none;
+        resize: none;
+        width: 400px;
+     }
+      }
+
+

@@ -1,72 +1,290 @@
+.text{
+text-align: center;
+font-size: 25px;
+margin-top: 50px;
+color: #FD5A05;
+}
+
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+h1.title {
+    font-size: 20px;
+}
+
+  
+
+input {
+    padding: 10px 0;
+    font-size: 14px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #333;
+    outline: none;
+    resize: none;
+    width: 400px;
+}
+    
+
+
+.rowkontakt{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#send{
+    display: flex;
+   justify-content: start;
+}
+
+.besked{
+    text-align: start;
+    margin-left: 205px
+}
+
+
+
+#button {
+    background-color: #4AAAC5;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 7px 50px;
+    margin: 0px;
+    border-radius: 12px;
+justify-content: end;
+  }
+  
+
+  #button a{
+    background-color: #4AAAC5;
+    color: rgb(255, 255, 255);
+
+  }
+  
+
+  iframe{
+      width: 100%;
+     height: 200px;
+     margin-top: 100px;
+  }
+
+
+   /* Change styles for small screens */
+   @media screen and (max-width: 500px) {
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.titel{
+    font-size: 16px;
+}
+
+.row{
+    padding: 10px 40;
+    font-size: 14px;
+    margin: 10px 0;
+    width: 400px;
+}
+
+.besked{
+    padding: 15px 0;
+    margin: 10px 0;
+    font-size: 10px;
+    
+}
+
+#send{
+    font-size: 16px;
+}
+
+  }
+
+
+ #bund{
+    border-bottom: 1px solid #333;
+    outline: none;
+    resize: none;
+    width: 70%;
+ }
+
+
+
+
+   /* Change styles for small screens */
+   @media screen and (max-width: 800px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+}
+    
+#titel{
+    font-size: 16px;
+}
+    
+.rowkontakt{
+    padding: 10px 40;
+    font-size: 14px;
+    margin: 10px 0;
+    width: 400px;
+}
+    
+.besked{
+    padding: 15px 0;
+    margin: 10px 0;
+    font-size: 10px;
+}
+
+#send{
+    font-size: 16px;
+}
+    
+
+#bund{
+        border-bottom: 1px solid #333;
+        outline: none;
+        resize: none;
+        width: 400px;
+    }
+}
+
+
+
+
+
+h1{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h3{
+    color: white;
+    font-size: 15px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    height: 175px;
+    width: 100%;
+    background-color: #F6BD60;
+    padding-top: 50px;
+}
+
+.grafik{
+    display: flex;
+    justify-content: center;
+    margin-top: 125px;
+ width: 100%;
+}
+
+.layer{
+    display: flex;
+    text-align: center;
+    width: 85%;
+}
+
+.layer h3{
+ padding: 30px;
+ width: 100%;
+}
+
+
+
+#filler {
+    background-color: #F6BD60;
+    padding: 50px;
+
+}
+
+
+
+
+
 html {
     margin: 0px;
     font-family: zenon, sans-serif;
     font-weight: 600;
     font-style: normal;
-    color: #FFFFFF;
-  }
+    color: #FFFFFF; 
+}
   
-  #videosection {
+#videosection {
     background-color: #F6BD60;
     margin: 0px;
-  }
+}
   
-  #video {
+#video {
     float: left;
     padding: 50px;
     padding-left: 150px;
-  }
+}
   
-  #video-text {
+#video-text {
     padding-top: 100px;
     padding-right: 100px;
     padding-left: 100px;
     padding-bottom: 150px;
-  }
+}
   
-  #instagramsection {
+#instagramsection {
     background-color: #FFFFFF;
     color: #000000;
-  }
+    padding: 1px;
+
+}
   
-  * {
+* {
     box-sizing: border-box;
-  }
+}
   
-  .instagram-header {
+.instagram-header {
     text-align: center;
     padding: 50px;
-  }
+}
   
-  .row {
+.rowinsta {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
-  }
+}
   
-  .column {
+.column {
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
-  }
+}
   
-  .column img {
+.column img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
-  }
+}
   
-  @media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
     .column {
       flex: 50%;
       max-width: 50%;
     }
-  }
+    #filler {
+        padding: 100px;
+    }
+}
   
-  @media screen and (max-width: 600px){
+@media screen and (max-width: 600px){
     .column {
       flex: 100%;
       max-width: 100%;
     }
-  }
+    #filler {
+        padding: 150px;
+    }
+}
   

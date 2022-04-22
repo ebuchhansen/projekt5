@@ -1,5 +1,4 @@
 
-// emilie start
 let instagramTitle = document.getElementById("instagramtitle");
 instagramTitle.style.color = "#FD5A05";
 
@@ -20,8 +19,7 @@ butik.firstName + butik.lastName;
 let text = "";
 let i = 0;
 while (i < 1) {
-    text += "<h1>Hvordan forgår en rydning? ";
+    text += "<h1>Hvordan forgår en rydning?</h1>";
     i++;
 }
 document.getElementById("rydningtitle").innerHTML = text;
-// emilie done

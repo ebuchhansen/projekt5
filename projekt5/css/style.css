@@ -1,47 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
- 
-*{
-   padding:0;
-   margin:0;
-}
- 
-html{
-   background-color: #eaf0f2;
-}
- 
-body{
-   font:16px/1.6 Arial,  sans-serif;
-}
- 
-header{
-   text-align: center;
-   padding-top: 100px;
-   margin-bottom:190px;
-}
- 
-header h1{
-   font: normal 32px/1.5 'Open Sans', sans-serif;
-   color: #3F71AE;
-   padding-bottom: 16px;
-}
- 
-header h2{
-   color: #F05283;
-}
- 
-header span{
-   color: #3F71EA;
-}
- 
- 
- 
- 
-footer{
-   position: fixed;
-   bottom: 0;
-}
- 
-@media (max-height:800px){
+ @media (max-height:800px){
    footer { position: static; }
    header { padding-top:40px; }
 }
@@ -54,7 +11,7 @@ footer{
    text-align: left;
    font: bold 16px sans-serif;
    padding: 50px 50px 60px 50px;
-   margin-top: 80px;
+   margin-top: 10px;
 }
  
 .footer-distributed .footer-left,

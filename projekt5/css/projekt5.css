@@ -1,0 +1,131 @@
+h1{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h3{
+    color: white;
+    font-size: 15px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    height: 175px;
+    width: 100%;
+    background-color: #F6BD60;
+    padding-top: 50px;
+}
+
+.grafik{
+    display: flex;
+    justify-content: center;
+    margin-top: 125px;
+ width: 100%;
+}
+
+.layer{
+    display: flex;
+    text-align: center;
+    width: 85%;
+}
+
+.layer h3{
+ padding: 30px;
+ width: 100%;
+}
+
+
+
+#filler {
+    background-color: #F6BD60;
+    padding: 50px;
+
+}
+
+
+
+
+
+html {
+    margin: 0px;
+    font-family: zenon, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #FFFFFF; 
+}
+  
+#videosection {
+    background-color: #F6BD60;
+    margin: 0px;
+}
+  
+#video {
+    float: left;
+    padding: 50px;
+    padding-left: 150px;
+}
+  
+#video-text {
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 150px;
+}
+  
+#instagramsection {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 1px;
+
+}
+  
+* {
+    box-sizing: border-box;
+}
+  
+.instagram-header {
+    text-align: center;
+    padding: 50px;
+}
+  
+.rowinsta {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+  
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+  
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+    #filler {
+        padding: 100px;
+    }
+}
+  
+@media screen and (max-width: 600px){
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+    #filler {
+        padding: 150px;
+    }
+}
+  

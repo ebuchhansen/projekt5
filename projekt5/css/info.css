@@ -1,0 +1,44 @@
+
+
+h1{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h3{
+    color: white;
+    font-size: 15px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    height: 175px;
+    width: 100%;
+}
+
+
+
+.grafik{
+    display: flex;
+    justify-content: center;
+    margin-top: 125px;
+ width: 100%;
+}
+
+
+
+
+.layer{
+    display: flex;
+    text-align: center;
+    width: 85%;
+}
+
+
+.layer h3{
+ padding: 30px;
+ width: 100%;
+}

@@ -1,4 +1,5 @@
 // Kode - Emilie //
+
 let instagramTitle = document.getElementById("instagramtitle");
 instagramTitle.style.color = "#FD5A05";
 
@@ -24,6 +25,7 @@ while (i < 1) {
 }
 document.getElementById("rydningtitle").innerHTML = text;
 
+
 // Kode - Magnus //
 
 const body = document.querySelector("body");
@@ -43,3 +45,20 @@ cancelBtn.onclick = ()=>{
 window.onscroll = ()=>{
   this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
 }
+
+function check_empty() {
+  if (document.getElementById('name').value == "" || document.getElementById('email').value == "" || document.getElementById('msg').value == "") {
+  alert("Udfyld alle felter !");
+  } else {
+  document.getElementById('form').submit();
+  alert("Beskeden er nu sendt !");
+  }
+  }
+  //Function der viser popup
+  function div_show() {
+  document.getElementById('abc').style.display = "block";
+  }
+  //Function der gemmer Popup
+  function div_hide(){
+  document.getElementById('abc').style.display = "none";
+  }

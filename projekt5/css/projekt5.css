@@ -61,14 +61,20 @@ html {
     background-color: #F6BD60;
     margin: 0px;
 }
-  
+
+video { 
+    width:100%;
+    height:auto;
+ }
+
 #video {
     float: left;
     padding: 50px;
     padding-left: 150px;
-}
+     }
   
 #video-text {
+    text-align: center;
     padding-top: 100px;
     padding-right: 100px;
     padding-left: 100px;

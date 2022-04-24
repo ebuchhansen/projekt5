@@ -12,10 +12,16 @@ else {
     console.log("elseWorking")
 }
 
-const butik = ["@butik", "pulvis"];
+const butik = {firstName:"@butik", lastName:"pulvis"};
 
 document.getElementById("instaid").innerHTML =
-butik[0] + butik[1];
+butik.firstName + butik.lastName;
+
+const instagramp = ["På vores instagram vil vi hyppigt lave opslag med en masse unikke skatte,", "<br>med dertilhørende priser så du kan reservere  og hente i butikken"];
+
+document.getElementById("instagramp").innerHTML =
+instagramp[0] + instagramp[1];
+
 
 let text = "";
 let i = 0;

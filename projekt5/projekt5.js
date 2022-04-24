@@ -12,10 +12,15 @@ else {
     console.log("elseWorking")
 }
 
-const butik = {firstName:"@butik", lastName:"pulvis"};
+const butik = {
+    firstName: "@butik",
+    lastName: "pulvis",
+    fullName: function() {
+      return this.firstName + this.lastName;
+    }
+};
 
-document.getElementById("instaid").innerHTML =
-butik.firstName + butik.lastName;
+document.getElementById("instaid").innerHTML = butik.fullName();
 
 const instagramp = ["På vores instagram vil vi hyppigt lave opslag med en masse unikke skatte,", "<br>med dertilhørende priser så du kan reservere  og hente i butikken"];
 

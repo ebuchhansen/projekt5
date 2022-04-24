@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/projekt5.css">
+    <link rel="stylesheet" href="css/pulvis.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/pulvis.css">
     <script src="projekt5.js" defer></script>
 
     <title>Butik Pulvis - Vintage og Antik - Odense</title>
@@ -26,117 +25,114 @@
 </head>
 <body>
 
-          <!-- Navbar -->
-  <nav class="navbar">
-    <div class="content">
-      <div class="logo">
-        <a href="index.html"><img src="images/logo.png" alt="Pulvis" /></a>
-      </div>
-      <ul class="menu-list">
-        <div class="icon cancel-btn">
-          <i class="fa fa-times"></i>
-        </div>
-        <li><a href="index.html">HJEM</a></li>
-        <li><a href="#">OM OS</a></li>
-        <li><a href="#">BUTIK</a></li>
-        <li><a href="#">DØDSBO</a></li>
-        <li><a href="kontakt.html">KONTAKT</a></li>
-      </ul>
-      <div class="icon menu-btn">
-        <i class="fa fa-bars"></i>
-      </div>
+        <!-- Navbar -->
+        <nav class="navbar">
+          <div class="content">
+            <div class="logo">
+              <a href="index.html"><img src="images/logo.png" alt="Pulvis" /></a>
+            </div>
+            <ul class="menu-list">
+              <div class="icon cancel-btn">
+                <i class="fa fa-times"></i>
+              </div>
+              <li><a href="index.html">HJEM</a></li>
+              <li><a href="#">OM OS</a></li>
+              <li><a href="#">BUTIK</a></li>
+              <li><a href="#">DØDSBO</a></li>
+              <li><a href="kontakt.html">KONTAKT</a></li>
+            </ul>
+            <div class="icon menu-btn">
+              <i class="fa fa-bars"></i>
+            </div>
+          </div>
+        </nav>
+
+    <div class="kasse">Header</div>
+
+    <div class="text"> KONTAKT OS</div>
+
+
+
+        
+        <form id="form" action="/" method="GET">
+            <div class="container">
+                <div class="row">
+          <div>
+            <label for="name">NAVN</label>
+            <input id="name" name="name" type="texts" placeholder="Skriv navn" name="uname" required>
+          </div>
+          <div>
+            <label for="password">EMAIL</label>
+            <input id="password" name="password" type="password" placeholder="Skriv email" name="uname" required>
+            <div id="error"></div>
+          </div>
+         <div>
+            <label for="name">TELEFONNUMMER</label>
+            <input type="texts"  onkeypress="isInputNumber (event)" placeholder="Skriv tlf.nummer" required>
+            <div id="error"></div>
+          </div>
+          <div>
+            <label for="password">BESKED</label>
+            <input id="besked" name="password" type="password" placeholder="Skriv besked" name="uname" required>
+          </div>
+          <button type="submit">Submit</button>
+
     </div>
-  </nav>
-
-
-    <div class="content"> KONTAKT OS</div>
-
-
-
-    <form action="action_page.php" method="post">
-    
-        <div class="container">
-<div class="rowkontakt">
-    <h1 class="titel">FORNAVN</h1>
-    <input id="username" placeholder="Skriv dit fornavn" name="uname" required>
-    <i class="fa fa-envelope-o" aria-hidden="true"></i>
-
-  <h1 class="titel">EFTERNAVN</h1>
-    <input class="password" placeholder="Skriv dit efternavn" name="psw" required>
-
 </div>
-<div class="rowkontakt">
-          <h1 class="titel">EMAIL</h1>
-          <input class="password" placeholder="Skriv din email" name="psw" required>
 
-          <h1 class="titel">TELEFON NUMMER</h1>
-          <input class="password" placeholder="Skriv dit telefon nummer" name="psw" required>
-
-
-        </div>
-    </div>
+        </form>
+         
+         
 
 
 
-    
-        <div class="rowkontakt">
-    <div class="besked">
-            <h1 id="send">BESKED</h1>
-            <input id="bund" placeholder="Skriv din besked" name="psw" required>
-            <button id="button" onclick="getInfo()">
-                <a href="index_home.html">Send</a></button> 
-
-        </div>
-    </div>
-
-            
-      </form>
 
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2265.954503267326!2d10.376639515851627!3d55.39369952709783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464cdfe564b86991%3A0x398685beab61d552!2sButik%20Pulvis!5e0!3m2!1sda!2sdk!4v1650549831056!5m2!1sda!2sdk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-    <!-- Footer -->
+    
+   <!-- Footer -->
 
-    <footer class="footer-distributed">
+   <footer class="footer-distributed">
  
-        <div class="footer-left">
-      <img src="images/logo.png">
+    <div class="footer-left">
+  <img src="images/logo.png">
 
-            <p class="footer-links">
-                <a href="#">Hjem</a>
-                |
-                <a href="#">kontakt</a>
-            </p>
+        <p class="footer-links">
+            <a href="#">Hjem</a>
+            |
+            <a href="#">kontakt</a>
+        </p>
 
-            <p class="footer-company-name"> mandag-fredag 11:00-17:00</p>
+        <p class="footer-company-name"> mandag-fredag 11:00-17:00</p>
+    </div>
+
+    <div class="footer-center">
+        <div>
+            <i class="fa fa-map-marker"></i>
+              <p><span> 5000 Odense C
+                </span> Vesterbro 13 </p>
         </div>
 
-        <div class="footer-center">
-            <div>
-                <i class="fa fa-map-marker"></i>
-                  <p><span> 5000 Odense C
-                    </span> Vesterbro 13 </p>
-            </div>
-
-            <div>
-                <i class="fa fa-phone"></i>
-                <p>+45 61 74 39 39</p>
-            </div>
-            <div>
-                <i class="fa fa-envelope"></i>
-                <p><a href="pulvis@live.dk">pulvis@live.dk</a></p>
-            </div>
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+45 61 74 39 39</p>
         </div>
-        <div class="footer-right">
-            <p class="footer-company-about">
-                <span>Om Pulvis</span>
-                Lokal genbrugs butik i hjertet af Odense som tilbyder rydning af døsbo i høj kvalitet, vi har menesktet i fokus - Pulvis fra støv til guld</p>
-            <div class="footer-icons">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
-                <a href="#"><i class="fa fa-youtube"></i></a>
-            </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="pulvis@live.dk">pulvis@live.dk</a></p>
         </div>
-    </footer>
+    </div>
+    <div class="footer-right">
+        <p class="footer-company-about">
+            <span>Om Pulvis</span>
+            Lokal genbrugs butik i hjertet af Odense som tilbyder rydning af døsbo i høj kvalitet, vi har menesktet i fokus - Pulvis fra støv til guld</p>
+        <div class="footer-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+    </div>
+</footer>
     
 </body>
 </html>

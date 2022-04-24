@@ -12,20 +12,10 @@ else {
     console.log("elseWorking")
 }
 
-const butik = {
-    firstName: "@butik",
-    lastName: "pulvis",
-    fullName: function() {
-      return this.firstName + this.lastName;
-    }
-};
+var butik = {firstName:"@butik", lastName:"pulvis"};
 
-document.getElementById("instaid").innerHTML = butik.fullName();
-
-const instagramp = ["På vores instagram vil vi hyppigt lave opslag med en masse unikke skatte,", "<br>med dertilhørende priser så du kan reservere  og hente i butikken"];
-
-document.getElementById("instagramp").innerHTML =
-instagramp[0] + instagramp[1];
+document.getElementById("instaid").innerHTML =
+butik.firstName + butik.lastName;
 
 let text = "";
 let i = 0;
@@ -57,7 +47,7 @@ window.onscroll = ()=>{
 }
 
 function check_empty() {
-  if (document.getElementById('name').value == "" || document.getElementById('email').value == "" || document.getElementById('msg').value == "") {
+  if (document.getElementById('navn').value == "" || document.getElementById('mail').value == "" || document.getElementById('msg').value == "") {
   alert("Udfyld alle felter !");
   } else {
   document.getElementById('form').submit();
@@ -72,3 +62,37 @@ function check_empty() {
   function div_hide(){
   document.getElementById('abc').style.display = "none";
   }
+
+
+  // Kode - Jakob //
+  const name = document.getElementById('name')
+  const password = document.getElementById('password')
+  const tlf = document.getElementById('name')
+  const besked = document.getElementById('password')
+  const form = document.getElementById('form')
+  const errorElement = document.getElementById('error')
+  
+  form.addEventListener('submit', (e) => {
+    let messages = []
+    
+    if (password.value.length <= 6) {
+      messages.push('Email must be longer than 6 characters')
+    }
+  
+    if (tlf.value.length >= 20) {
+      messages.push('Email must be less than 20 characters')
+    }
+  
+  })
+  
+  
+  function isInputNumber(evt){
+                  
+    var ch = String.fromCharCode(evt.which);
+    
+    if(!(/[0-9]/.test(ch))){
+        evt.preventDefault();
+    }
+    
+  }
+  

@@ -27,7 +27,6 @@ const instagramp = ["På vores instagram vil vi hyppigt lave opslag med en masse
 document.getElementById("instagramp").innerHTML =
 instagramp[0] + instagramp[1];
 
-
 let text = "";
 let i = 0;
 while (i < 1) {

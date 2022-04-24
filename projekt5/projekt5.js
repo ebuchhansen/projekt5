@@ -12,10 +12,10 @@ else {
     console.log("elseWorking")
 }
 
-var butik = {firstName:"@butik", lastName:"pulvis"};
+const butik = ["@butik", "pulvis"];
 
 document.getElementById("instaid").innerHTML =
-butik.firstName + butik.lastName;
+butik[0] + butik[1];
 
 let text = "";
 let i = 0;

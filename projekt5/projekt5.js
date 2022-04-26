@@ -69,8 +69,10 @@ function check_empty() {
   const password = document.getElementById('password')
   const tlf = document.getElementById('name')
   const besked = document.getElementById('password')
+  const texts = document.getElementById('password')
   const form = document.getElementById('form')
   const errorElement = document.getElementById('error')
+
   
   form.addEventListener('submit', (e) => {
     let messages = []
